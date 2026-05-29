@@ -1,5 +1,12 @@
 # Argus
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
+[![Node](https://img.shields.io/badge/node-18%2B-green.svg)](https://nodejs.org/)
+[![Backend tests](https://img.shields.io/badge/backend%20tests-46%20passed-brightgreen.svg)](#)
+[![Frontend tests](https://img.shields.io/badge/frontend%20tests-64%20passed-brightgreen.svg)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/codewithscales/argus/pulls)
+
 A self-hosted agent test bench. Inspect execution traces, visualize decision flows, and iterate on agent behavior — for any agent framework.
 
 ## What it does
