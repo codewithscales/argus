@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply h-full;
+  }
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased;
+  }
+}
+
+/* ReactFlow dark overrides */
+.react-flow { background-color: #0f172a; }
+.react-flow__background pattern circle { fill: #334155; }
+.react-flow__edge-path,
+.react-flow__connection-path { stroke: #475569; stroke-width: 1.5; }
+.react-flow__edge.selected .react-flow__edge-path { stroke: #94a3b8; }
+.react-flow__minimap { background-color: #1e293b !important; border: 1px solid #334155; }
+.react-flow__minimap-mask { fill: #0f172a80; }
+.react-flow__controls { border: 1px solid #334155; border-radius: 6px; overflow: hidden; }
+.react-flow__controls-button {
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+  fill: #94a3b8;
+}
+.react-flow__controls-button:hover { background-color: #334155; }

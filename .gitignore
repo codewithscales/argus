@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+*.db
+
+# Node
+node_modules/
+dist/
+package-lock.json
+.env
+.env.local
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
